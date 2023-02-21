@@ -1,0 +1,64 @@
+.projects {
+    display: grid;
+    gap: 10px;
+    background-color: darkblue;
+    width: auto;
+    height: 700px;
+    grid-template-columns: [first] 49% [line2] 49% [line3]  ;
+    grid-template-rows: [row1-start] 50% [row1-end] 50%  [third-line] ;
+    padding: 10px;
+    
+
+  }
+
+.project-item {
+    background-color: aqua;
+}
+.one {
+    background-image: url(./SnakeImage.png);
+    background-size: 100%;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+
+}
+.one:hover{
+    background-color: skyblue;
+    background-image: none;
+  }
+  .two {
+    background-image: url(./git-logo.png);
+    background-size: 100%;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+
+}
+.two:hover{
+    background-color: skyblue;
+    background-image: none;
+  }
+  .three {
+    background-image: url(./soda.jpeg);
+    background-size: 100%;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+
+}
+.three:hover{
+    background-color: skyblue;
+    background-image: none;
+  }
+  .four {
+    background-image: url(./selfie.jpg);
+    background-size: 100%;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+
+}
