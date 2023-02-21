@@ -9,7 +9,11 @@
     </head>
     <body>
         <h1>Connor Armstrong</h1>
-        <h3>"The best thing since sliced bread!" -no one ever</h3>
+        <h4 id="groovy">"Positively Smashing" -Austin Powers
+            <span style="align-items: flex-end;">
+                <img src="./austin.jpeg" alt="Austin Powers Image" height="150px"/>
+            </span>
+        </h4>
         <br>
         <br>
         <div class="projects">
@@ -47,17 +51,40 @@
         <div class="book-list">
             <div class="book">
                 <h3>Red Rising</h3>
-                <button onclick="alert('Thank you for being a big Steve Harrington fan!')">Click here to be a fan!</button> 
+                <button onclick="alert('I like this one too!')">Click here if you like this book!</button> 
             </div>
             <div class="book">
                 <h3>Leviathan Wakes</h3>
+                <button onclick="alert('I like this one too!')">Click here if you like this book!</button> 
             </div>
             <div class="book">
                 <h3>The Devil and the Dark Water</h3>
+                <button onclick="alert('I like this one too!')">Click here if you like this book!</button> 
             </div>
 
 
         </div>
+        <script>
+            function calcForm (form) {
+                let inputValue = form.name.value;
+                let inputEmail = form.email.value;
+                alert ("Your name is " + inputValue + ". I will email you at " + inputEmail);
+            }
+
+
+        </script>
+        <form>
+            <h6>Please input your personal info here:</h6>
+            <label>Name:</label>
+            <input type="text" id="name">
+            <br>
+            <br>
+            <label>Email:</label>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <input type="button" id="button" value="Submit"Click onclick="calcForm(this.form)">
+        </form>
 
 
 
